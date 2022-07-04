@@ -1,0 +1,99 @@
+canvas {
+    /* Распалагаем окно игры по центру */
+    background: url(files/images/ground0.png);
+    display: block;
+    margin: 0 auto;
+}
+
+body, html
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+/*#Level
+{
+    width: 200px;
+    background: #fc0;
+    padding: 5px;
+    border: solid 1px black;
+    float: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}*/
+
+
+.button1
+{
+    width:145px;
+    height:73px;
+    background: url(files/images/buttonImg1.png);
+    position:absolute;
+    bottom: 0px;  /*Положение от нижнего края */
+    right: 0px;  /*Положение от правого края */
+    color: #fff;
+    border: 0px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.button2
+{
+    width:145px;
+    height:73px;
+    background: url(files/images/buttonImg2.png);
+    position:absolute;
+    bottom: 150px;  /*Положение от нижнего края */
+    right: 0px;  /*Положение от правого края */
+    color: #fff;
+    border: 0px solid #fff;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+
+    text-decoration: none;
+}
+.button3
+{
+    width:145px;
+    height:73px;
+    background: url(files/images/buttonImg3.png);
+    position:absolute;
+    bottom: 300px;  /*Положение от нижнего края */
+    right: 0px;  /*Положение от правого края */
+    color: #fff;
+    border: 0px solid #fff;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#text{
+    font-weight: 800;
+    color:  white;
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */
+    font-size: 450%; /* Размер шрифта в процентах */
+    position:absolute;
+    left: 75px;  /*Положение от нижнего края */
+    top: 300px;  /*Положение от правого края */
+}
+
+.game_space {
+    width:600px;
+    height:800px;
+    position:relative;
+    display: block;
+    margin: 0 auto;
+}
+button:active, button:focus {
+    outline: none;
+}
+button::-moz-focus-inner {
+    border: 0;
+}
